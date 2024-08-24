@@ -30,7 +30,6 @@ class Feed extends React.Component {
         return (
             <div className="feed">
                 <h2>News Feed</h2>
-                <p>Your news feed will appear here.</p>
             </div>
         );
     }
