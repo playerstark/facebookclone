@@ -13,11 +13,13 @@ class Sidebar extends React.Component {
     render() {
         return (
             <div className="sidebar">
+            <ul>
                 <h2>Profile</h2>
-                <p>Friends</p>
-                <p>Messenger</p>
-                <p>Groups</p>
-                <p>Events</p>
+                <h2>Friends</h2>
+                <h2>Messenger</h2>
+                <h2>Groups</h2>
+                <h2>Events</h2>
+            </ul>
             </div>
         );
     }
